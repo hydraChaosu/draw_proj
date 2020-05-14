@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+</head>
+
+<body class="sketchbook">
+  <header class="sketchbook__header">
+    <div class="sketchbook__header__wrapper">
+      <h1 class="sketchbook__header--title">Sketchbook</h1>
+      <div>
+        <label for="pencolor">Pencil color:</label>
+        <input type="color" id="pencolor" name="pencolor">
+      </div>
+      <div>
+        <label for="bgcolor">Background color:</label>
+        <input type="color" id="bgcolor" name="bgcolor" value="#FFFFFF">
+      </div>
+      <div>
+        <label for="pencil">Pencil size:</label>
+        <input type="number" id="pencil" name="pencil">
+      </div>
+    </div>
+    <div>
+      <button id="clearAll" class="sketchbook__header--button">Clear</button>
+      <button id="saveFile" class="sketchbook__header--button">Save</button>
+    </div>
+  </header>
+  <!-- <canvas></canvas> -->
+  <script src="script.js"></script>
+</body>
+
+</html>

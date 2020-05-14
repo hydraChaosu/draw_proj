@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cornflowerblue;
+  color: black;
+  padding: 15px 20px 15px 40px;
+}
+
+.sketchbook__header--title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.sketchbook__header__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.sketchbook__header__wrapper>div {
+  padding-left: 10px;
+}
+
+label,
+input {
+  font-family: 'Roboto', sans-serif;
+}
+
+input {
+  width: 100px;
+}
+
+.sketchbook__header--button {
+  background-color: darkblue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+canvas {
+  cursor: pointer;
+}
+
+/* font-family: 'Open Sans', sans-serif; */
